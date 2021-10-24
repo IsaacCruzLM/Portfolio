@@ -1,12 +1,12 @@
 const lightTheme = {
-    primary0: '#57e089',
-    primary1: '#4ad97e',
-    primary2: '#43cb75',
-    primary_lighter: '#b6fccf',
+    primary0: '#57E089',
+    primary1: '#4AD97E',
+    primary2: '#43CB75',
+    primary_lighter: '#B6FCCF',
     title: '#232925',
     text: '#3B453E',
     text_lighter: '#83958A',
-    background: '#fbfefc',
+    background: '#FBFRFC',
     danger: '#E56B5F',
     success: '#62D793',
 };
