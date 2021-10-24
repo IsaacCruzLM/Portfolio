@@ -1,7 +1,7 @@
 const lightTheme = {
     primary0: '#57E089',
-    primary1: '#4AD97E',
-    primary2: '#43CB75',
+    primary1: '#3EB067',
+    primary2: '#266E41',
     primary_lighter: '#B6FCCF',
     title: '#232925',
     text: '#3B453E',
