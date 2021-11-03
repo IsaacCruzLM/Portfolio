@@ -6,7 +6,6 @@ export const Container = styled.section`
   align-items: center;
   padding: 30px;
   margin: 50px 0;
-  height: 40vh;
   background-color: ${props => props.theme.background };
 `;
 
