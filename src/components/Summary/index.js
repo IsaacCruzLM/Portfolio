@@ -39,7 +39,7 @@ function Summary() {
                             15+
                         </h3>
                         <p>
-                            Repositório Criados
+                            Repositórios Criados
                         </p>
                     </ExperienceItem>
                     <ExperienceItem>
