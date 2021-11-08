@@ -3,6 +3,7 @@ import Introduction from "../../components/Introduction";
 import Summary from "../../components/Summary";
 import Skills from "../../components/Skills";
 import Journey from "../../components/Journey";
+import ProjectsSlider from "../../components/ProjectsSlide";
 
 function Main() {
   return (
@@ -12,6 +13,7 @@ function Main() {
       <Summary />
       <Skills />
       <Journey />
+      <ProjectsSlider />
     </main>
   );
 }
