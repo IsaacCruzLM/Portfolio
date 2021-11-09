@@ -16,7 +16,7 @@ export const SwiperContainer = styled.section`
 
 export const Container = styled.section`
   padding: 30px;
-  margin: 50px 0;
+  margin: 50px 0 0;
   background-color: ${props => props.theme.background };
 `;
 

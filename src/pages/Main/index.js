@@ -5,6 +5,7 @@ import Skills from "../../components/Skills";
 import Journey from "../../components/Journey";
 import ProjectsSlider from "../../components/ProjectsSlide";
 import ContactMe from "../../components/ContactMe";
+import Footer from "../../components/Footer";
 
 function Main() {
   return (
@@ -16,6 +17,7 @@ function Main() {
       <Journey />
       <ProjectsSlider />
       <ContactMe />
+      <Footer />
     </main>
   );
 }

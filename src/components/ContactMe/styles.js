@@ -3,7 +3,7 @@ import helper from "../../styles/helper";
 
 export const Container = styled.section`
   padding: 30px;
-  margin: 50px 0;
+  margin: 10px 0;
   background-color: ${props => props.theme.background };
 `;
 
@@ -73,6 +73,12 @@ export const Form = styled.form`
     margin-bottom: 15px;
     font-size: ${helper.normal_font_size_LD};
     color: ${props => props.theme.title };
+    border-color: ${props => props.theme.primary_lighter };
+    outline: 0;
+
+    &:active, &:focus {
+      border-color: ${props => props.theme.primary2 };
+    }
   }
 
   input[type="email"] {
@@ -85,6 +91,14 @@ export const Form = styled.form`
     margin-bottom: 10px;
     font-size: ${helper.normal_font_size_LD};
     color: ${props => props.theme.title };
+    border-color: ${props => props.theme.primary_lighter };
+    outline: 0;
+    border-width: 3px;
+
+    &:active, &:focus {
+      border-color: ${props => props.theme.primary2 };
+      border-width: 2.5px;
+    }
   }
 
   div {

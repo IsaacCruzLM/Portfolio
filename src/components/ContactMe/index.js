@@ -52,7 +52,7 @@ function ContactMe() {
                         <input type="email" placeholder="Email" />
                     </div>
                     <input type="text" placeholder="Assunto" />
-                    <textarea placeholder="Mensagem" rows="8" />
+                    <textarea rows="8" placeholder="Mensagem" />
                     <Button type="submit">
                         <span>Mandar Mensagem</span>
                         <ArrowIcon size="25" />
