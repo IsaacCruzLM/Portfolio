@@ -4,6 +4,7 @@ import Summary from "../../components/Summary";
 import Skills from "../../components/Skills";
 import Journey from "../../components/Journey";
 import ProjectsSlider from "../../components/ProjectsSlide";
+import ContactMe from "../../components/ContactMe";
 
 function Main() {
   return (
@@ -14,6 +15,7 @@ function Main() {
       <Skills />
       <Journey />
       <ProjectsSlider />
+      <ContactMe />
     </main>
   );
 }

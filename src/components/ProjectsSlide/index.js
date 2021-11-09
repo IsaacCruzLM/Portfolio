@@ -42,7 +42,7 @@ function ProjectsSlider () {
     <Container>
       <TitleContainer>
         <h1>Projetos</h1>
-        <h2>Meus Principais Porjetos Realizados</h2>
+        <h2>Meus Principais Projetos Realizados</h2>
       </TitleContainer>
       <SwiperContainer >
         <Swiper
