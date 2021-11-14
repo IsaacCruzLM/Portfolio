@@ -6,10 +6,12 @@ import Journey from "../../components/Journey";
 import ProjectsSlider from "../../components/ProjectsSlide";
 import ContactMe from "../../components/ContactMe";
 import Footer from "../../components/Footer";
+import ScrollUp from "../../components/ScrollUp";
 
 function Main() {
+
   return (
-    <main>
+    <main className="main">
       <Header />
       <Introduction />
       <Summary />
@@ -18,6 +20,7 @@ function Main() {
       <ProjectsSlider />
       <ContactMe />
       <Footer />
+      <ScrollUp />
     </main>
   );
 }
