@@ -11,6 +11,7 @@ export const Container = styled.header`
 
 export const ContentContainer = styled.div`
   margin-left: 10px;
+  padding-bottom: 15px;
 
   h3 {
     font-size: ${ helper.h2_font_size_LD };

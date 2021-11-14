@@ -5,8 +5,7 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
-  margin: 50px 0;
+  padding: 80px 30px 10px;
   background-color: ${props => props.theme.background };
 `;
 

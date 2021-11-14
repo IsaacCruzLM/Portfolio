@@ -6,7 +6,7 @@ const lightTheme = {
     title: '#232925',
     text: '#3B453E',
     text_lighter: '#83958A',
-    background: '#FBFRFC',
+    background: '#FFF',
     danger: '#E56B5F',
     success: '#62D793',
 };

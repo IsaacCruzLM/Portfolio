@@ -11,8 +11,7 @@ function ScrollUp() {
   useEffect(() => {
     $( window ).scroll(function(){
       const position = $('.scrollFlag').offset().top;
-      console.log(position);
-      if (position > 1000) {
+      if (position > 800) {
         $('.scrollUp').show(200);
       } else {
         $('.scrollUp').hide(200);

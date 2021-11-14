@@ -24,12 +24,14 @@ function Introduction() {
             <h1>Prazer, sou Isaac</h1>
             <h2>Desenvolvedor FullStack</h2>
             <p>Estudante de desenvolvimento web fullstack na Trybe, em busca da minha primeira oportunidade de trabalho na área. Caso queira saber mais, é só rolar para baixo!</p>
-            <Button>
-                <span>
-                    Entre Em Contato Comigo!
-                </span>
-                <SendIcon size="25" />
-            </Button>
+            <a href="#Contato">
+                <Button>
+                    <span>
+                        Entre Em Contato Comigo!
+                    </span>
+                    <SendIcon size="25" />
+                </Button>
+            </a>
         </TextContainer>
         <ImageContainer>
             <Blob />

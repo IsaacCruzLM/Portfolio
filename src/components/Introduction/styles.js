@@ -5,7 +5,7 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   padding: 30px;
-  margin: 50px 0;
+  margin: 80px 0 0;
   background-color: ${props => props.theme.background };
 `;
 
@@ -54,6 +54,10 @@ export const TextContainer = styled.div`
     color: ${props => props.theme.text };
     font-size: ${helper.normal_font_size_LD};
     margin-bottom: 20px;
+  }
+
+  a {
+    text-decoration: none;
   }
 `;
 

@@ -1,13 +1,20 @@
 import styled from "styled-components";
 import helper from "../../styles/helper";
 
+export const Container = styled.div`
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+`;
+
 export const HeaderComponent = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 30px 10px;
-  height: 10vh;
-  background-color: ${props => props.theme.background };
+  background-color: ${props => props.theme.background };  
 `;
 
 export const NameContainer = styled.div`
@@ -20,7 +27,7 @@ export const NavContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   a {
     text-decoration: none;
     color: ${props => props.theme.title };

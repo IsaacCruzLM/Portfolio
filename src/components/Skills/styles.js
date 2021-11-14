@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import helper from "../../styles/helper";
 
+export const Container = styled.div`
+  padding: 80px 30px 10px;
+`;
+
 export const TitleContainer = styled.div`
   text-align: center;
 
@@ -27,14 +31,27 @@ export const SkillsSection = styled.div`
 export const SkillSection = styled.div`
   width: 45%;
   margin: 15px;
+  
 `;
 
 export const SkillTitle = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.3);
 
   padding: 10px 20px;
+
+  &:hover {
+    cursor: pointer;
+    filter: brightness(0.5);
+  }
+
+  svg {
+    width: 25px;
+    height: 25px;
+    color: ${props => props.theme.primary2 };
+  }
 
   div {
     display: flex;
@@ -55,6 +72,7 @@ export const SkillsContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.3);
 `;
 
 export const SkillContainer = styled.div`

@@ -2,8 +2,7 @@ import styled from "styled-components";
 import helper from "../../styles/helper";
 
 export const Container = styled.section`
-  padding: 30px;
-  margin: 10px 0;
+  padding: 80px 80px 40px;
   background-color: ${props => props.theme.background };
 `;
 

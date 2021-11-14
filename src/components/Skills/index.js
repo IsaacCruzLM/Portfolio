@@ -5,9 +5,10 @@ import BackendIcon from "@iconscout/react-unicons/icons/uil-server-network";
 import FrontendIcon from "@iconscout/react-unicons/icons/uil-brackets-curly";
 import ToolsIcon from "@iconscout/react-unicons/icons/uil-swatchbook";
 import ArrowDown from "@iconscout/react-unicons/icons/uil-angle-down";
-// import ArrowUp from "@iconscout/react-unicons/icons/uil-angle-up";
+import ArrowUp from "@iconscout/react-unicons/icons/uil-angle-up";
 
 import {
+  Container,
   TitleContainer,
   SkillsSection,
   SkillSection,
@@ -17,15 +18,23 @@ import {
 } from './styles';
 
 function Skills() {
-
   useEffect(() => {
     $('.skillButton').click(function(){
       $(this).siblings('.skillContent').slideToggle();
+      if ($(this).attr('class').includes('active')) {
+        $(this).removeClass('active');
+        $(this).children('.up').hide();
+        $(this).children('.down').show();
+      } else {
+        $(this).addClass('active');
+        $(this).children('.up').show();
+        $(this).children('.down').hide();
+      }
     })
   }, []);
 
   return (
-    <section>
+    <Container id="Habilidades">
       <TitleContainer>
         <h1>Habilidades</h1>
         <h2>Minhas Habilidades Tecnicas</h2>
@@ -37,7 +46,8 @@ function Skills() {
               <FrontendIcon size="25" />
               <h3>Desenvolvimento Frontend</h3>
             </div>
-            <ArrowDown size="25" />
+            <ArrowUp className="up" style={{display: 'none'}}/>
+            <ArrowDown className="down"/>
           </SkillTitle>
           <SkillsContainer className="skillContent" style={{display: 'none'}}>
             <SkillContainer>
@@ -88,7 +98,8 @@ function Skills() {
               <BackendIcon size="25" />
               <h3>Desenvolvimento Backend</h3>
             </div>
-            <ArrowDown size="25" />
+            <ArrowUp className="up" style={{display: 'none'}}/>
+            <ArrowDown className="down"/>
           </SkillTitle>
           <SkillsContainer className="skillContent" style={{display: 'none'}}>
             <SkillContainer>
@@ -115,7 +126,8 @@ function Skills() {
               <ToolsIcon size="25" />
               <h3>Outras Ferramentas</h3>
             </div>
-            <ArrowDown size="25" />
+            <ArrowUp className="up" style={{display: 'none'}}/>
+            <ArrowDown className="down"/>
           </SkillTitle>
           <SkillsContainer className="skillContent" style={{display: 'none'}}>
             <SkillContainer>
@@ -137,7 +149,7 @@ function Skills() {
           </SkillsContainer>
         </SkillSection>
       </SkillsSection>
-    </section>
+    </Container>
   );
 }
   

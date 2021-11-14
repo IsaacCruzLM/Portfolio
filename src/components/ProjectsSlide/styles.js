@@ -2,7 +2,7 @@ import styled from "styled-components";
 import helper from "../../styles/helper";
 
 export const SwiperContainer = styled.section`
-  padding: 50px 100px;
+  padding: 50px 100px 0;
   background-color: ${props => props.theme.background };
 
   .swiper-button-next, .swiper-button-prev {
@@ -15,8 +15,7 @@ export const SwiperContainer = styled.section`
 `;
 
 export const Container = styled.section`
-  padding: 30px;
-  margin: 50px 0 0;
+  padding: 80px 30px 10px;
   background-color: ${props => props.theme.background };
 `;
 

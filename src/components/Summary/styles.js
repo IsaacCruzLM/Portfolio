@@ -5,8 +5,7 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
-  margin: 80px 0;
+  padding: 80px 30px 10px;
   background-color: ${props => props.theme.background };
 `;
 
@@ -58,6 +57,10 @@ export const TextContainer = styled.div`
     color: ${props => props.theme.text };
     font-size: ${helper.normal_font_size_LD};
     margin-bottom: 10px;
+  }
+
+  a {
+    text-decoration: none;
   }
 `;
 

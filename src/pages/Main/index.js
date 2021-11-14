@@ -8,10 +8,12 @@ import ContactMe from "../../components/ContactMe";
 import Footer from "../../components/Footer";
 import ScrollUp from "../../components/ScrollUp";
 
+import { Container } from "./styles";
+
 function Main() {
 
   return (
-    <main className="main">
+    <Container className="Container">
       <Header />
       <Introduction />
       <Summary />
@@ -21,7 +23,7 @@ function Main() {
       <ContactMe />
       <Footer />
       <ScrollUp />
-    </main>
+    </Container>
   );
 }
 
