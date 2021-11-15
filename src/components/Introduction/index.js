@@ -17,7 +17,7 @@ function Introduction() {
                 <a href="https://github.com/IsaacCruzLM" target="_blank" rel="noreferrer">
                     <GitHubIcon size="25" />
                 </a>
-                <a href="mail To: isaac.clm1@gmail.com" target="_blank" rel="noreferrer">
+                <a href="mailto: isaac.clm1@gmail.com" target="_blank" rel="noreferrer">
                     <EmailIcon size="25" />
                 </a>
             </IconsContainer>

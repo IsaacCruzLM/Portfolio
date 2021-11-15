@@ -1,8 +1,29 @@
-import Moon from "@iconscout/react-unicons/icons/uil-moon";
+import { useContext, useState } from "react";
+import AppContext from "../../context/AppContext";
+import { lightTheme, darkTheme } from '../../styles/themes';
 
-import { Container, HeaderComponent, NameContainer, NavContainer, IconContainer } from './styles';
+import Moon from "@iconscout/react-unicons/icons/uil-moon";
+import Sun from "@iconscout/react-unicons/icons/uil-sun";
+
+import { Container, HeaderComponent, NameContainer, NavContainer, IconContainer, Button } from './styles';
 
 function Header() {
+  const { theme, setCurrentTheme } = useContext(AppContext);
+  const [themeState, setThemeState] = useState('light');
+
+  console.log(theme);
+  console.log(setCurrentTheme);
+
+  const changeTheme = () => {
+    if (themeState === 'light') {
+      setCurrentTheme(darkTheme);
+      setThemeState('dark');
+    } else {
+      setCurrentTheme(lightTheme);
+      setThemeState('light');
+    }
+  }
+
   return (
     <Container>
       <HeaderComponent>
@@ -19,9 +40,12 @@ function Header() {
             <a href="#Projetos">Projetos</a>
             <a href="#Contato">Contato</a>
           </div>
-          <IconContainer>
-            <Moon size="25" />
-          </IconContainer>
+          <Button onClick={() => changeTheme()}>
+            <IconContainer>
+              {themeState === 'light' ? <Moon size="25" /> : <Sun size="25" /> }
+              
+            </IconContainer>
+          </Button>
         </NavContainer>
       </HeaderComponent>
     </Container>

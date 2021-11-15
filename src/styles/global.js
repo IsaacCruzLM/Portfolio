@@ -6,6 +6,10 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
+
+  html {
+    background-color: ${props => props.theme.background };
+  }
   
   body {
     font-family: 'Poppins', sans-serif;

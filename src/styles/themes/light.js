@@ -9,6 +9,7 @@ const lightTheme = {
     background: '#FFF',
     danger: '#E56B5F',
     success: '#62D793',
+    name: 'light',
 };
 
 export default lightTheme;

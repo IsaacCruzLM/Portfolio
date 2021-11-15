@@ -46,7 +46,7 @@ export const NavContainer = styled.div`
     border-radius: 10px;
 
     &:hover {
-      background-color: ${props => props.theme.primary_lighter };
+      background-color: ${props => props.theme.name === 'light' ? props.theme.primary_lighter : props.theme.text_lighter};
       filter: brightness(0.9);
     };
   };
@@ -66,8 +66,17 @@ export const IconContainer = styled.div`
   border-radius: 10px;
 
   &:hover {
-    background-color: ${props => props.theme.primary_lighter };
+    background-color: ${props => props.theme.name === 'light' ? props.theme.primary_lighter : props.theme.text_lighter};
     filter: brightness(0.9);
     cursor: pointer;
   };
+
+  svg {
+    fill: ${props => props.theme.title };
+  }
+`;
+
+export const Button = styled.button`
+  background-color: transparent;
+  border: none;
 `;

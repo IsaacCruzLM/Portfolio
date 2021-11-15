@@ -15,7 +15,7 @@ const options = {
 }
 
 function App() {
-  const { theme } = useContext(AppContext)
+  const { theme } = useContext(AppContext);
 
   return (
     <ThemeProvider theme={ theme }>
