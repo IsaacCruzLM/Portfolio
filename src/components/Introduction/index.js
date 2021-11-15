@@ -4,22 +4,27 @@ import EmailIcon from "@iconscout/react-unicons/icons/uil-fast-mail-alt";
 import SendIcon from "@iconscout/react-unicons/icons/uil-envelope-send";
 import { ReactComponent as Blob } from '../../assets/blob.svg';
 
-import { Container, IconsContainer, TextContainer, Button, ImageContainer } from './styles';
+import { Container, IconsContainer, TextContainer, Button, ImageContainer, ImageContainerMobile, ContainerMobile } from './styles';
 
 function Introduction() {
   return (
     <Container>
-        <IconsContainer>
-            <a href="https://www.linkedin.com/in/isaaccruzz/" target="_blank" rel="noreferrer">
-                <LinkedinIcon size="25"/>
-            </a>
-            <a href="https://github.com/IsaacCruzLM" target="_blank" rel="noreferrer">
-                <GitHubIcon size="25" />
-            </a>
-            <a href="mail To: isaac.clm1@gmail.com" target="_blank" rel="noreferrer">
-                <EmailIcon size="25" />
-            </a>
-        </IconsContainer>
+        <ContainerMobile>
+            <IconsContainer>
+                <a href="https://www.linkedin.com/in/isaaccruzz/" target="_blank" rel="noreferrer">
+                    <LinkedinIcon size="25"/>
+                </a>
+                <a href="https://github.com/IsaacCruzLM" target="_blank" rel="noreferrer">
+                    <GitHubIcon size="25" />
+                </a>
+                <a href="mail To: isaac.clm1@gmail.com" target="_blank" rel="noreferrer">
+                    <EmailIcon size="25" />
+                </a>
+            </IconsContainer>
+            <ImageContainerMobile>
+                <Blob />
+            </ImageContainerMobile>
+        </ContainerMobile>
         <TextContainer>
             <h1>Prazer, sou Isaac</h1>
             <h2>Desenvolvedor FullStack</h2>

@@ -7,6 +7,11 @@ export const Container = styled.section`
   padding: 30px;
   margin: 80px 0 0;
   background-color: ${props => props.theme.background };
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    margin: 0;
+  }
 `;
 
 export const IconsContainer = styled.div`
@@ -59,6 +64,23 @@ export const TextContainer = styled.div`
   a {
     text-decoration: none;
   }
+
+  @media (max-width: 767px) {
+    width: 80%;
+    text-align: center;
+
+    h1 {
+    font-size: ${ helper.h1_font_size_SD };
+    };
+
+    h2 {
+      font-size: ${helper.h3_font_size_SD};
+    };
+
+    p {
+      font-size: ${helper.normal_font_size_SD};
+    }
+  }
 `;
 
 export const Button = styled.button`
@@ -81,10 +103,38 @@ export const Button = styled.button`
     background-color: ${props => props.theme.primary1 };
     cursor: pointer;
   }
+
+  @media (max-width: 767px) {
+    margin: 30px auto 0;
+
+    span {
+    font-size: ${helper.normal_font_size_SD};
+  };
+  }
 `;
 
 export const ImageContainer = styled.div`
   width: 14rem;
   margin-left: 40px;
   fill: ${props => props.theme.primary2 };
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+`;
+
+export const ImageContainerMobile = styled.div`
+  display: none;
+
+  @media (max-width: 767px) {
+    display: block;
+    width: 12rem;
+    margin-left: 40px;
+    fill: ${props => props.theme.primary2 };
+  }
+`;
+
+export const ContainerMobile = styled.div`
+  display: flex;
+  align-items: center;
 `;

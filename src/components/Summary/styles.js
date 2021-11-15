@@ -24,6 +24,16 @@ export const TitleContainer = styled.div`
     font-size: ${helper.normal_font_size_LD};
     margin-bottom: 30px;
   };
+
+  @media (max-width: 767px) {
+    h1 {
+      font-size: ${ helper.h1_font_size_SD };
+    };
+
+    h2 {
+      font-size: ${helper.normal_font_size_SD};
+    };
+  };
 `;
 
 export const ContentContainer = styled.div`
@@ -31,6 +41,11 @@ export const ContentContainer = styled.div`
   display: flex;
   align-items: center;
   padding: 0 50px;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    padding: 0;
+  };
 `;
 
 export const ImageContainer = styled.div`
@@ -42,7 +57,12 @@ export const ImageContainer = styled.div`
 
   img {
     width: 100%;
-  }
+  };
+
+  @media (max-width: 767px) {
+    width: 60%;
+    padding: 0;
+  };
 `;
 
 export const TextContainer = styled.div`
@@ -61,7 +81,18 @@ export const TextContainer = styled.div`
 
   a {
     text-decoration: none;
+    width: 100%;
   }
+
+  @media (max-width: 767px) {
+    width: 80%;
+    text-align: center;
+    padding: 25px 0;
+
+    p {
+      font-size: ${helper.normal_font_size_SD};
+    }
+  };
 `;
 
 export const ExperienceContainer = styled.div`
@@ -90,6 +121,16 @@ export const ExperienceItem = styled.div`
     font-size: ${ helper.smaller_font_size_LD };
     text-align: center;
   }
+
+  @media (max-width: 767px) {
+    h3 {
+      font-size: ${ helper.h3_font_size_SD };
+    }
+
+    p {
+      font-size: ${ helper.smaller_font_size_SD };
+    }
+  };
 `;
 
 export const Button = styled.button`
@@ -113,4 +154,12 @@ export const Button = styled.button`
     background-color: ${props => props.theme.primary1 };
     cursor: pointer;
   }
+
+  @media (max-width: 767px) {
+    margin: 10px auto 0;
+
+    span {
+      font-size: ${helper.normal_font_size_SD};
+    };
+  };
 `;

@@ -23,6 +23,16 @@ export const TitleContainer = styled.div`
     font-weight: ${ helper.font_semi_bold};
     font-size: ${helper.normal_font_size_LD};
   };
+
+  @media (max-width: 767px) {
+    h1 {
+      font-size: ${ helper.h1_font_size_SD };
+    };
+
+    h2 {
+      font-size: ${helper.normal_font_size_SD};
+    };
+  };
 `;
 
 export const ButtonsContainer = styled.div`
@@ -57,6 +67,12 @@ export const Button = styled.div`
     filter: brightness(0.9);
     cursor: pointer;
   }
+
+  @media (max-width: 767px) {
+    span {
+      font-size: ${helper.h3_font_size_SD};
+    }
+  };
 `;
 
 export const Rounder = styled.span`
@@ -65,6 +81,11 @@ export const Rounder = styled.span`
   height: 13px;
   background-color:  ${props => props.theme.primary1 };
   border-radius: 50%;
+
+  @media (max-width: 767px) {
+    width: 12px;
+    height: 12px;
+  };
 `;
 
 export const Line = styled.span`
@@ -108,6 +129,16 @@ export const QualificationItem = styled.span`
     font-weight: ${ helper.font_medium };
     font-size: ${ helper.normal_font_size_LD };
   }
+
+  @media (max-width: 767px) {
+    h3 {
+      font-size: ${ helper.h3_font_size_SD };
+    }
+
+    h4 {
+      font-size: ${ helper.normal_font_size_SD };
+    }
+  };
 `;
 
 export const DateItem = styled.span`

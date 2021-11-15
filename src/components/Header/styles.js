@@ -7,6 +7,10 @@ export const Container = styled.div`
   right: 0;
   left: 0;
   z-index: 20;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
 `;
 
 export const HeaderComponent = styled.header`
@@ -21,6 +25,10 @@ export const NameContainer = styled.div`
   font-size: ${ helper.h2_font_size_LD };
   font-weight: ${ helper.font_semi_bold };
   color: ${props => props.theme.title };
+
+  @media (max-width: 1023px) and (min-width: 768px) {
+    font-size: ${ helper.h2_font_size_SD };
+  }
 `;
 
 export const NavContainer = styled.div`
@@ -32,7 +40,7 @@ export const NavContainer = styled.div`
     text-decoration: none;
     color: ${props => props.theme.title };
     font-weight: ${ helper.font_semi_bold };
-    font-size: ${helper.h4_font_size_LD};
+    font-size: ${helper.normal_font_size_LD};
     padding: 5px 10px;
     margin-right: 10px;
     border-radius: 10px;
@@ -42,6 +50,12 @@ export const NavContainer = styled.div`
       filter: brightness(0.9);
     };
   };
+
+  @media (max-width: 1023px) and (min-width: 768px) {
+    a {
+      font-size: ${helper.normal_font_size_SD};
+    }
+  }
 `;
 
 export const IconContainer = styled.div`

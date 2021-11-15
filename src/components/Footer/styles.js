@@ -19,6 +19,16 @@ export const Container = styled.section`
     font-weight: ${ helper.font_medium };
     font-size: ${helper.normal_font_size_LD};
   }
+
+  @media (max-width: 767px) {
+    h3 {
+      font-size: ${helper.h3_font_size_SD};
+    }
+
+    h4, span {
+      font-size: ${helper.normal_font_size_SD};
+    }
+  };
 `;
 
 export const CopyrightContainer = styled.div`

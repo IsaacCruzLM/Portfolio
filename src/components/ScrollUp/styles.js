@@ -4,6 +4,7 @@ export const Container = styled.div`
     position: fixed;
     right: 2rem;
     bottom: 3rem;
+    z-index: 20;
 `;
 
 export const Link = styled.a`

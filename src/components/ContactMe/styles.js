@@ -20,16 +20,40 @@ export const TitleContainer = styled.div`
     font-weight: ${ helper.font_semi_bold};
     font-size: ${helper.normal_font_size_LD};
   };
+
+  @media (max-width: 767px) {
+    h1 {
+      font-size: ${ helper.h1_font_size_SD };
+    };
+
+    h2 {
+      font-size: ${helper.normal_font_size_SD};
+    };
+  };
 `;
 
 export const ContentContainer = styled.div`
   display: flex;
   align-items: center;
   margin-top: 40px;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    margin-top: 20px;
+  };
 `;
 
 export const InfoContainer = styled.div`
   width: 40%;
+
+  @media (max-width: 767px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  };
 `;
 
 export const InfoItem = styled.div`
@@ -59,10 +83,60 @@ export const InfoItem = styled.div`
       font-size: ${helper.normal_font_size_LD};
     }
   }
+
+  @media (max-width: 1023px) {
+    padding: 15px;
+    margin-left: 15px;
+
+    svg {
+      width: 25px;
+      height: 25px;
+      margin-right: 5px;
+    }
+
+    div {
+      margin-left: 0;
+      
+      h3 {
+        font-size: ${helper.h3_font_size_SD};
+      }
+
+      span {
+        font-size: ${helper.normal_font_size_SD};
+      }
+    }
+  };
+
+  @media (max-width: 767px) {
+    padding: 10px;
+    margin-left: 0;
+
+    svg {
+      width: 25px;
+      height: 25px;
+      margin-right: 5px;
+    }
+
+    div {
+      margin-left: 0;
+      
+      h3 {
+        font-size: ${helper.normal_font_size_SD};
+      }
+
+      span {
+        font-size: ${helper.small_font_size_SD};
+      }
+    }
+  };
 `;
 
 export const FormContainer = styled.div`
   width: 60%;
+
+  @media (max-width: 767px) {
+    width: 80%;
+  };
 `;
 
 export const Form = styled.form`
@@ -104,6 +178,25 @@ export const Form = styled.form`
     display: flex;
   }
 
+  @media (max-width: 767px) {
+    input {
+      padding: 10px;
+      margin-bottom: 10px;
+      font-size: ${helper.normal_font_size_SD};
+    }
+
+    input[type="email"] {
+      margin-left: 15px;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: ${helper.normal_font_size_SD};
+      max-height: 120px;
+    }
+  };
 `;
 
 export const Button = styled.button`
@@ -126,4 +219,12 @@ export const Button = styled.button`
     background-color: ${props => props.theme.primary1 };
     cursor: pointer;
   }
+
+  @media (max-width: 767px) {
+    margin: 0 auto;
+    
+    span {
+      font-size: ${helper.normal_font_size_SD};
+    };
+  };
 `;
