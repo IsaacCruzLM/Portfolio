@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.js": "/IsaacCruzLM.github.io/static/js/main.1bbeff45.chunk.js",
-    "main.js.map": "/IsaacCruzLM.github.io/static/js/main.1bbeff45.chunk.js.map",
-    "runtime-main.js": "/IsaacCruzLM.github.io/static/js/runtime-main.fcdc7893.js",
-    "runtime-main.js.map": "/IsaacCruzLM.github.io/static/js/runtime-main.fcdc7893.js.map",
-    "static/css/2.e6a755d0.chunk.css": "/IsaacCruzLM.github.io/static/css/2.e6a755d0.chunk.css",
-    "static/js/2.fdaad575.chunk.js": "/IsaacCruzLM.github.io/static/js/2.fdaad575.chunk.js",
-    "static/js/2.fdaad575.chunk.js.map": "/IsaacCruzLM.github.io/static/js/2.fdaad575.chunk.js.map",
-    "index.html": "/IsaacCruzLM.github.io/index.html",
-    "static/css/2.e6a755d0.chunk.css.map": "/IsaacCruzLM.github.io/static/css/2.e6a755d0.chunk.css.map",
-    "static/js/2.fdaad575.chunk.js.LICENSE.txt": "/IsaacCruzLM.github.io/static/js/2.fdaad575.chunk.js.LICENSE.txt",
-    "static/media/ReceitaApp.19de2717.jpeg": "/IsaacCruzLM.github.io/static/media/ReceitaApp.19de2717.jpeg",
-    "static/media/TriviaGame.12259248.jpeg": "/IsaacCruzLM.github.io/static/media/TriviaGame.12259248.jpeg",
-    "static/media/TrybeWallet.ee504b19.jpeg": "/IsaacCruzLM.github.io/static/media/TrybeWallet.ee504b19.jpeg",
-    "static/media/about.dfe6454b.jpeg": "/IsaacCruzLM.github.io/static/media/about.dfe6454b.jpeg",
-    "static/media/curriculo.066e0145.pdf": "/IsaacCruzLM.github.io/static/media/curriculo.066e0145.pdf",
-    "static/media/error.79029aa8.png": "/IsaacCruzLM.github.io/static/media/error.79029aa8.png",
-    "static/media/perfil.813fb0a6.png": "/IsaacCruzLM.github.io/static/media/perfil.813fb0a6.png"
+    "main.js": "/Portfolio/static/js/main.444b30ea.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.444b30ea.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.eb6781d5.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.eb6781d5.js.map",
+    "static/css/2.e6a755d0.chunk.css": "/Portfolio/static/css/2.e6a755d0.chunk.css",
+    "static/js/2.4d5af952.chunk.js": "/Portfolio/static/js/2.4d5af952.chunk.js",
+    "static/js/2.4d5af952.chunk.js.map": "/Portfolio/static/js/2.4d5af952.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/2.e6a755d0.chunk.css.map": "/Portfolio/static/css/2.e6a755d0.chunk.css.map",
+    "static/js/2.4d5af952.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.4d5af952.chunk.js.LICENSE.txt",
+    "static/media/ReceitaApp.19de2717.jpeg": "/Portfolio/static/media/ReceitaApp.19de2717.jpeg",
+    "static/media/TriviaGame.12259248.jpeg": "/Portfolio/static/media/TriviaGame.12259248.jpeg",
+    "static/media/TrybeWallet.ee504b19.jpeg": "/Portfolio/static/media/TrybeWallet.ee504b19.jpeg",
+    "static/media/about.dfe6454b.jpeg": "/Portfolio/static/media/about.dfe6454b.jpeg",
+    "static/media/curriculo.066e0145.pdf": "/Portfolio/static/media/curriculo.066e0145.pdf",
+    "static/media/error.79029aa8.png": "/Portfolio/static/media/error.79029aa8.png",
+    "static/media/perfil.813fb0a6.png": "/Portfolio/static/media/perfil.813fb0a6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fcdc7893.js",
+    "static/js/runtime-main.eb6781d5.js",
     "static/css/2.e6a755d0.chunk.css",
-    "static/js/2.fdaad575.chunk.js",
-    "static/js/main.1bbeff45.chunk.js"
+    "static/js/2.4d5af952.chunk.js",
+    "static/js/main.444b30ea.chunk.js"
   ]
 }
