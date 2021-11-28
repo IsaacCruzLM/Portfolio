@@ -4,6 +4,10 @@ import helper from "../../styles/helper";
 export const Container = styled.section`
   padding: 80px 80px 40px;
   background-color: ${props => props.theme.background };
+
+  @media (max-width: 767px) {
+    padding: 80px 40px 40px;
+  };
 `;
 
 export const TitleContainer = styled.div`
@@ -135,7 +139,7 @@ export const FormContainer = styled.div`
   width: 60%;
 
   @media (max-width: 767px) {
-    width: 80%;
+    width: 100%;
   };
 `;
 
