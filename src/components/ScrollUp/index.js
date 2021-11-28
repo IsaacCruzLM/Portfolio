@@ -5,7 +5,7 @@ import ArrowUp from "@iconscout/react-unicons/icons/uil-arrow-up";
 import {
   Container,
   Link
-} from './styles';
+} from "./styles";
 
 function ScrollUp() {
   useEffect(() => {
@@ -15,7 +15,7 @@ function ScrollUp() {
         $('.scrollUp').show(200);
       } else {
         $('.scrollUp').hide(200);
-      }
+      };
     });
   });
 
@@ -25,11 +25,11 @@ function ScrollUp() {
 
   return (
     <Container>
-        <div className="scrollFlag"/>
-        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-        <Link href="#" className="scrollUp">
-          <ArrowUp />
-        </Link>
+      <div className="scrollFlag"/>
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+      <Link href="#" className="scrollUp">
+        <ArrowUp />
+      </Link>
     </Container>
   );
 }

@@ -66,7 +66,7 @@ export const InfoItem = styled.div`
     width: 30px;
     height: 30px;
     color: ${props => props.theme.primary2 };
-  }
+  };
 
   div {
     margin-left: 10px;
@@ -75,14 +75,14 @@ export const InfoItem = styled.div`
       color: ${props => props.theme.title };
       font-weight: ${ helper.font_semi_bold};
       font-size: ${helper.h3_font_size_LD};
-    }
+    };
 
     span {
       color: ${props => props.theme.text };
       font-weight: ${ helper.font_medium };
       font-size: ${helper.normal_font_size_LD};
-    }
-  }
+    };
+  };
 
   @media (max-width: 1023px) {
     padding: 15px;
@@ -92,19 +92,19 @@ export const InfoItem = styled.div`
       width: 25px;
       height: 25px;
       margin-right: 5px;
-    }
+    };
 
     div {
       margin-left: 0;
       
       h3 {
         font-size: ${helper.h3_font_size_SD};
-      }
+      };
 
       span {
         font-size: ${helper.normal_font_size_SD};
-      }
-    }
+      };
+    };
   };
 
   @media (max-width: 767px) {
@@ -115,19 +115,19 @@ export const InfoItem = styled.div`
       width: 25px;
       height: 25px;
       margin-right: 5px;
-    }
+    };
 
     div {
       margin-left: 0;
       
       h3 {
         font-size: ${helper.normal_font_size_SD};
-      }
+      };
 
       span {
         font-size: ${helper.small_font_size_SD};
-      }
-    }
+      };
+    };
   };
 `;
 
@@ -151,12 +151,12 @@ export const Form = styled.form`
 
     &:active, &:focus {
       border-color: ${props => props.theme.primary2 };
-    }
-  }
+    };
+  };
 
   input[type="email"] {
     margin-left: 15px;
-  }
+  };
 
   textarea {
     width: 100%;
@@ -171,23 +171,23 @@ export const Form = styled.form`
     &:active, &:focus {
       border-color: ${props => props.theme.primary2 };
       border-width: 2.5px;
-    }
-  }
+    };
+  };
 
   div {
     display: flex;
-  }
+  };
 
   @media (max-width: 767px) {
     input {
       padding: 10px;
       margin-bottom: 10px;
       font-size: ${helper.normal_font_size_SD};
-    }
+    };
 
     input[type="email"] {
       margin-left: 15px;
-    }
+    };
 
     textarea {
       width: 100%;
@@ -195,7 +195,7 @@ export const Form = styled.form`
       margin-bottom: 10px;
       font-size: ${helper.normal_font_size_SD};
       max-height: 120px;
-    }
+    };
   };
 `;
 
@@ -218,7 +218,7 @@ export const Button = styled.button`
   &:hover {
     background-color: ${props => props.theme.primary1 };
     cursor: pointer;
-  }
+  };
 
   @media (max-width: 767px) {
     margin: 0 auto;

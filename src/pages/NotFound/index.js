@@ -1,12 +1,12 @@
-import NotFoundComponent from '../../components/NotFound';
+import NotFoundComponent from "../../components/NotFound";
 
 function NotFound() {
-    return (
-      <main>
-        <NotFoundComponent />
-      </main>
-    );
-  }
+  return (
+    <main>
+      <NotFoundComponent />
+    </main>
+  );
+}
   
-  export default NotFound;
+export default NotFound;
   

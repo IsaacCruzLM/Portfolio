@@ -1,8 +1,15 @@
 import { Link } from "react-router-dom";
 
-import ErrorImg from '../../assets/error.png';
+import ErrorImg from "../../assets/error.png";
 
-import { Container, Title, SubTitle, ImgContainer, ButtonContainer, Button } from './styles';
+import { 
+  Container, 
+  Title, 
+  SubTitle, 
+  ImgContainer, 
+  ButtonContainer, 
+  Button 
+} from "./styles";
 
 function NotFound() {
 
@@ -16,10 +23,10 @@ function NotFound() {
         <span>página não encontrada</span>
       </SubTitle>
       <ImgContainer>
-        <img src={ ErrorImg } alt="Imagem de Error" />
+        <img src={ ErrorImg } alt='Imagem de Error' />
       </ImgContainer>
       <ButtonContainer>
-        <Link to="/" style={{textDecoration: 'none'}}>
+        <Link to='/' style={{textDecoration: 'none'}}>
           <Button>
             <span>Voltar a Página Inicial</span>
           </Button>

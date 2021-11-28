@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { ThemeProvider } from "styled-components";
-import { transitions, positions, Provider as AlertProvider } from 'react-alert';
-import AlertTemplate from 'react-alert-template-basic';
+import { transitions, positions, Provider as AlertProvider } from "react-alert";
+import AlertTemplate from "react-alert-template-basic";
 import Routes from "./Routes";
 import AppContext from "./context/AppContext";
 
@@ -12,7 +12,7 @@ const options = {
   timeout: 5000,
   offset: '30px',
   transition: transitions.SCALE,
-}
+};
 
 function App() {
   const { theme } = useContext(AppContext);
@@ -25,6 +25,6 @@ function App() {
       </AlertProvider>
     </ThemeProvider>
   );
-}
+};
 
 export default App;

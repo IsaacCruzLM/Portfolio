@@ -14,7 +14,7 @@ import { Container } from "./styles";
 function Main() {
 
   return (
-    <Container className="Container">
+    <Container className='Container'>
       <Header />
       <MobileHeader />
       <Introduction />

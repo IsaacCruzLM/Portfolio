@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 import $ from "jquery";
 
 import EducationIcon from "@iconscout/react-unicons/icons/uil-graduation-cap";
@@ -36,7 +36,7 @@ function Journey() {
       $('.workData').show(1000);
       setWorkDataIsActive(true);
       setEducationDataIsActive(false);
-    })
+    });
   }, []);
 
   return (
@@ -47,7 +47,6 @@ function Journey() {
       </TitleContainer>
       <div>
         <ButtonsContainer>
-          {/* Botões */}
           <Button active={educationDataIsActive} className="educationButton">
             <div>
               <EducationIcon size="25" />
@@ -64,7 +63,6 @@ function Journey() {
           </Button>
         </ButtonsContainer>
         <div>
-          {/* Experiência1 */}
           <QualificationData className="educationData">
             <QualificationItem>
               <h3>Engenharia Ambiental</h3>
@@ -120,7 +118,7 @@ function Journey() {
       </div>
     </Container>
   );
-}
+};
   
 export default Journey;
   

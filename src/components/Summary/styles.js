@@ -77,12 +77,12 @@ export const TextContainer = styled.div`
     color: ${props => props.theme.text };
     font-size: ${helper.normal_font_size_LD};
     margin-bottom: 10px;
-  }
+  };
 
   a {
     text-decoration: none;
     width: 100%;
-  }
+  };
 
   @media (max-width: 767px) {
     width: 80%;
@@ -91,7 +91,7 @@ export const TextContainer = styled.div`
 
     p {
       font-size: ${helper.normal_font_size_SD};
-    }
+    };
   };
 `;
 
@@ -114,22 +114,22 @@ export const ExperienceItem = styled.div`
     color: ${props => props.theme.title };
     font-weight: 600;
     font-size: ${ helper.h3_font_size_LD };
-  }
+  };
 
   p {
     color: ${props => props.theme.text_lighter };
     font-size: ${ helper.smaller_font_size_LD };
     text-align: center;
-  }
+  };
 
   @media (max-width: 767px) {
     h3 {
       font-size: ${ helper.h3_font_size_SD };
-    }
+    };
 
     p {
       font-size: ${ helper.smaller_font_size_SD };
-    }
+    };
   };
 `;
 
@@ -153,7 +153,7 @@ export const Button = styled.button`
   &:hover {
     background-color: ${props => props.theme.primary1 };
     cursor: pointer;
-  }
+  };
 
   @media (max-width: 767px) {
     margin: 10px auto 0;

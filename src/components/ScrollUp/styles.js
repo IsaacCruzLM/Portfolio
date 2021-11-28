@@ -9,7 +9,7 @@ export const Container = styled.div`
     @media (max-width: 767px) {
         bottom: none;
         top: 3rem;
-    }
+    };
 `;
 
 export const Link = styled.a`
@@ -22,11 +22,11 @@ export const Link = styled.a`
 
     &:hover {
         background-color: ${props => props.theme.primary1 };
-    }
+    };
 
     svg {
         width: 25px;
         height: 25px;
         color: ${props => props.theme.primary_lighter };
-    }
+    };
 `;

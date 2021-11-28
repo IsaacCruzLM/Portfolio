@@ -2,15 +2,15 @@ import DownloadIcon from "@iconscout/react-unicons/icons/uil-download-alt";
 import curriculoPdf from "../../assets/curriculo.pdf";
 
 import {
-    Container,
-    TitleContainer,
-    ContentContainer,
-    ImageContainer,
-    TextContainer,
-    ExperienceContainer,
-    ExperienceItem,
-    Button
-} from './styles';
+  Container,
+  TitleContainer,
+  ContentContainer,
+  ImageContainer,
+  TextContainer,
+  ExperienceContainer,
+  ExperienceItem,
+  Button
+} from "./styles";
 
 function Summary() {
   return (

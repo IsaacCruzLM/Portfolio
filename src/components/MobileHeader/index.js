@@ -2,7 +2,7 @@ import { useContext, useState, useEffect } from "react";
 import $ from "jquery";
 
 import AppContext from "../../context/AppContext";
-import { lightTheme, darkTheme } from '../../styles/themes';
+import { lightTheme, darkTheme } from "../../styles/themes";
 
 import Moon from "@iconscout/react-unicons/icons/uil-moon";
 import Sun from "@iconscout/react-unicons/icons/uil-sun";
@@ -14,7 +14,17 @@ import Experiências from "@iconscout/react-unicons/icons/uil-briefcase";
 import Projetos from "@iconscout/react-unicons/icons/uil-scenery";
 import Contato from "@iconscout/react-unicons/icons/uil-message";
 
-import { Container, HeaderMobile, HeaderMobileName, HeaderMobileButtons, IconContainer, Button, ButtonsContainer, ButtonsItens, ButtonsItem } from './styles';
+import { 
+  Container, 
+  HeaderMobile, 
+  HeaderMobileName, 
+  HeaderMobileButtons, 
+  IconContainer, 
+  Button, 
+  ButtonsContainer, 
+  ButtonsItens, 
+  ButtonsItem 
+} from "./styles";
 
 function MobileHeader() {
   const { setCurrentTheme } = useContext(AppContext);
@@ -27,13 +37,13 @@ function MobileHeader() {
     } else {
       setCurrentTheme(lightTheme);
       setThemeState('light');
-    }
+    };
   };
 
   useEffect(() => {
     $('.menuButton').click(function(){
       $('.menuButtons').slideToggle();
-    })
+    });
   }, []);
 
   return (
@@ -89,7 +99,7 @@ function MobileHeader() {
       </HeaderMobile>
     </Container>
   );
-}
+};
   
 export default MobileHeader;
   

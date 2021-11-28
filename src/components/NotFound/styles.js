@@ -28,7 +28,7 @@ export const SubTitle = styled.h2`
     font-size: ${ helper.h3_font_size_LD };
     font-weight: ${ helper.font_semi_bold };
     color: ${props => props.theme.title };
-  }
+  };
 `;
 
 export const ImgContainer = styled.div`
@@ -38,7 +38,7 @@ export const ImgContainer = styled.div`
 
   img {
     width: 200px;
-  }
+  };
 `;
 
 export const ButtonContainer = styled.div`
@@ -66,7 +66,7 @@ export const Button = styled.button`
   &:hover {
     background-color: ${props => props.theme.primary1 };
     cursor: pointer;
-  }
+  };
 
   @media (max-width: 767px) {
     margin: 30px auto 0;
@@ -74,5 +74,5 @@ export const Button = styled.button`
     span {
       font-size: ${helper.h3_font_size_SD};
     };
-  }
+  };
 `;

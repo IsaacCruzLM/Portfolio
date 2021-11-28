@@ -7,15 +7,15 @@ export const SwiperContainer = styled.section`
 
   .swiper-button-next, .swiper-button-prev {
     color: ${props => props.theme.primary2 };
-  }
+  };
 
   .swiper-wrapper {
     width: 100%;
-  }
+  };
   
   .swiper-pagination-bullet-active {
     background-color: ${props => props.theme.primary2 };
-  }
+  };
 
   @media (max-width: 1023px) {
     padding: 40px 50px 0;
@@ -53,6 +53,49 @@ export const TitleContainer = styled.div`
 
     h2 {
       font-size: ${helper.normal_font_size_SD};
+    };
+  };
+`;
+
+export const ButtonContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+  a {
+    text-decoration: none;
+  };
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ${props => props.theme.primary2 };
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: ${props => props.theme.primary_lighter };
+
+    span {
+      font-size: ${helper.normal_font_size_LD};
+      font-weight: ${helper.font_semi_bold};
+      margin-right: 10px;
+    };
+
+    &:hover {
+      background-color: ${props => props.theme.primary1 };
+      cursor: pointer;
+    };
+  };
+
+  @media (max-width: 1023px) {
+    justify-content: center;
+    padding-bottom: 10px;
+
+    button {
+      span {
+        font-size: ${helper.normal_font_size_SD};
+      };
     };
   };
 `;

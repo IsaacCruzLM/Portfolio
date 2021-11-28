@@ -1,11 +1,19 @@
 import { useContext, useState } from "react";
+
 import AppContext from "../../context/AppContext";
-import { lightTheme, darkTheme } from '../../styles/themes';
+import { lightTheme, darkTheme } from "../../styles/themes";
 
 import Moon from "@iconscout/react-unicons/icons/uil-moon";
 import Sun from "@iconscout/react-unicons/icons/uil-sun";
 
-import { Container, HeaderComponent, NameContainer, NavContainer, IconContainer, Button } from './styles';
+import { 
+  Container, 
+  HeaderComponent, 
+  NameContainer, 
+  NavContainer, 
+  IconContainer, 
+  Button
+} from "./styles";
 
 function Header() {
   const { setCurrentTheme } = useContext(AppContext);
@@ -18,8 +26,8 @@ function Header() {
     } else {
       setCurrentTheme(lightTheme);
       setThemeState('light');
-    }
-  }
+    };
+  };
 
   return (
     <Container>

@@ -11,7 +11,7 @@ export const Container = styled.section`
   @media (max-width: 767px) {
     flex-direction: column;
     margin: 0;
-  }
+  };
 `;
 
 export const IconsContainer = styled.div`
@@ -59,11 +59,11 @@ export const TextContainer = styled.div`
     color: ${props => props.theme.text };
     font-size: ${helper.normal_font_size_LD};
     margin-bottom: 20px;
-  }
+  };
 
   a {
     text-decoration: none;
-  }
+  };
 
   @media (max-width: 767px) {
     width: 80%;
@@ -79,8 +79,8 @@ export const TextContainer = styled.div`
 
     p {
       font-size: ${helper.normal_font_size_SD};
-    }
-  }
+    };
+  };
 `;
 
 export const Button = styled.button`
@@ -102,15 +102,15 @@ export const Button = styled.button`
   &:hover {
     background-color: ${props => props.theme.primary1 };
     cursor: pointer;
-  }
+  };
 
   @media (max-width: 767px) {
     margin: 30px auto 0;
 
     span {
-    font-size: ${helper.normal_font_size_SD};
+      font-size: ${helper.normal_font_size_SD};
+    };
   };
-  }
 `;
 
 export const ImageContainer = styled.div`
@@ -120,7 +120,7 @@ export const ImageContainer = styled.div`
 
   @media (max-width: 767px) {
     display: none;
-  }
+  };
 `;
 
 export const ImageContainerMobile = styled.div`
@@ -131,7 +131,7 @@ export const ImageContainerMobile = styled.div`
     width: 12rem;
     margin-left: 40px;
     fill: ${props => props.theme.primary2 };
-  }
+  };
 `;
 
 export const ContainerMobile = styled.div`

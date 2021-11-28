@@ -14,7 +14,7 @@ export const Container = styled.div`
     z-index: 20;
     background-color: ${props => props.theme.background };
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.20);
-  }
+  };
 `;
 
 export const ButtonsContainer = styled.div`
@@ -42,11 +42,11 @@ export const ButtonsItem = styled.a`
     font-size: ${ helper.smaller_font_size_SD };
     font-weight: ${ helper.font_semi_bold };
     color: ${props => props.theme.title };
-  }
+  };
 
   svg {
     fill: ${props => props.theme.title };
-  }
+  };
 `;
 
 export const HeaderMobile = styled.div`
@@ -73,10 +73,9 @@ export const IconContainer = styled.div`
   padding: 5px 10px;
   border-radius: 10px;
 
-
   svg {
     fill: ${props => props.theme.title };
-  }
+  };
 `;
 
 export const Button = styled.button`

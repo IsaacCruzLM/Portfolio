@@ -22,25 +22,25 @@ export const ContentContainer = styled.div`
     font-size: ${ helper.h2_font_size_LD };
     font-weight: ${ helper.font_semi_bold };
     color: ${props => props.theme.title };
-  }
+  };
 
   p {
     font-size: ${ helper.small_font_size_LD };
     font-weight: ${ helper.font_medium };
     color: ${props => props.theme.text };
     padding: 20px 25px 20px 5px;
-  }
+  };
 
   @media (max-width: 1023px) {
     text-align: center;
 
     h3 {
       font-size: ${ helper.h2_font_size_SD };
-    }
+    };
 
     p {
       font-size: ${ helper.small_font_size_SD };
-    }
+    };
   };
 `;
 
@@ -51,7 +51,7 @@ export const ImageContainer = styled.div`
   img {
     width: 100%;
     max-height: 300px;
-  }
+  };
 
   @media (max-width: 1023px) {
     display: flex;
@@ -60,7 +60,7 @@ export const ImageContainer = styled.div`
     img {
       width: 40%;
       max-width: 100px;
-    }
+    };
   };
 `;
 
@@ -70,7 +70,7 @@ export const ButtonContainer = styled.div`
 
   a {
     text-decoration: none;
-  }
+  };
 
   button {
     display: flex;
@@ -91,8 +91,8 @@ export const ButtonContainer = styled.div`
     &:hover {
       background-color: ${props => props.theme.primary1 };
       cursor: pointer;
-    }
-  }
+    };
+  };
 
   @media (max-width: 1023px) {
     justify-content: center;
@@ -102,6 +102,6 @@ export const ButtonContainer = styled.div`
       span {
         font-size: ${helper.normal_font_size_SD};
       };
-    }
+    };
   };
 `;

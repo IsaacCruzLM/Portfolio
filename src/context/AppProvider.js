@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import AppContext from './AppContext';
-import { lightTheme } from '../styles/themes';
+import React, { useState } from "react";
+import AppContext from "./AppContext";
+import { lightTheme } from "../styles/themes";
 
 const AppProvider = ({ children }) => {
   const [currentTheme, setCurrentTheme] = useState(lightTheme);

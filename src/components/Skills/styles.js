@@ -58,13 +58,13 @@ export const SkillTitle = styled.div`
   &:hover {
     cursor: pointer;
     filter: brightness(0.5);
-  }
+  };
 
   svg {
     width: 25px;
     height: 25px;
     color: ${props => props.theme.primary2 };
-  }
+  };
 
   div {
     display: flex;
@@ -76,8 +76,8 @@ export const SkillTitle = styled.div`
       font-weight: 700;
       font-size: ${helper.h3_font_size_LD};
       margin-left: 10px;
-    }
-  }
+    };
+  };
 
   @media (max-width: 767px) {
     width: 100%;
@@ -85,8 +85,8 @@ export const SkillTitle = styled.div`
     div {
       h3 {
         font-size: ${helper.h3_font_size_SD};
-      }
-    }
+      };
+    };
   };
 `;
 
@@ -112,17 +112,17 @@ export const SkillContainer = styled.div`
     width: 30px;
     height: 30px;
     filter: brightness(0.9);
-  }
+  };
 
   h3 {
     color: ${props => props.theme.title };
     font-weight: ${ helper.font_semi_bold};
     font-size: ${helper.normal_font_size_LD};
-  }
+  };
 
   @media (max-width: 767px) {
     h3 {
       font-size: ${helper.normal_font_size_SD};
-    }
+    };
   };
 `;

@@ -10,7 +10,7 @@ export const Container = styled.div`
 
   @media (max-width: 767px) {
     display: none;
-  }
+  };
 `;
 
 export const HeaderComponent = styled.header`
@@ -28,7 +28,7 @@ export const NameContainer = styled.div`
 
   @media (max-width: 1023px) and (min-width: 768px) {
     font-size: ${ helper.h2_font_size_SD };
-  }
+  };
 `;
 
 export const NavContainer = styled.div`
@@ -54,8 +54,8 @@ export const NavContainer = styled.div`
   @media (max-width: 1023px) and (min-width: 768px) {
     a {
       font-size: ${helper.normal_font_size_SD};
-    }
-  }
+    };
+  };
 `;
 
 export const IconContainer = styled.div`
@@ -73,7 +73,7 @@ export const IconContainer = styled.div`
 
   svg {
     fill: ${props => props.theme.title };
-  }
+  };
 `;
 
 export const Button = styled.button`

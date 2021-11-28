@@ -56,22 +56,22 @@ export const Button = styled.div`
     margin-left: 5px;
 
     color: ${({ active, theme }) => active ? theme.primary2 : theme.title }
-  }
+  };
 
   svg {
     color: ${({ active, theme }) => active ? theme.primary2 : theme.title }
-  }
+  };
 
   &:hover {
     background-color: ${props => props.theme.name === 'light' ? props.theme.primary_lighter : props.theme.text_lighter};
     filter: brightness(0.9);
     cursor: pointer;
-  }
+  };
 
   @media (max-width: 767px) {
     span {
       font-size: ${helper.h3_font_size_SD};
-    }
+    };
   };
 `;
 
@@ -122,22 +122,22 @@ export const QualificationItem = styled.span`
     color: ${props => props.theme.title };
     font-weight: ${ helper.font_semi_bold };
     font-size: ${ helper.h3_font_size_LD };
-  }
+  };
 
   h4 {
     color: ${props => props.theme.text };
     font-weight: ${ helper.font_medium };
     font-size: ${ helper.normal_font_size_LD };
-  }
+  };
 
   @media (max-width: 767px) {
     h3 {
       font-size: ${ helper.h3_font_size_SD };
-    }
+    };
 
     h4 {
       font-size: ${ helper.normal_font_size_SD };
-    }
+    };
   };
 `;
 
@@ -149,11 +149,11 @@ export const DateItem = styled.span`
   svg {
     color: ${props => props.theme.text_lighter };
     width: 15px;
-  }
+  };
 
   span {
     margin-left: 10px;
     font-size: ${ helper.smaller_font_size_LD };
     color: ${props => props.theme.text_lighter };
-  }
+  };
 `;

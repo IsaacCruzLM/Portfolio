@@ -13,23 +13,23 @@ export const Container = styled.section`
   h3 {
     font-weight: ${ helper.font_semi_bold};
     font-size: ${helper.h3_font_size_LD};
-  }
+  };
 
   h4, span {
     font-weight: ${ helper.font_medium };
     font-size: ${helper.normal_font_size_LD};
-  }
+  };
 
   @media (max-width: 767px) {
     text-align: center;
     
     h3 {
       font-size: ${helper.h3_font_size_SD};
-    }
+    };
 
     h4, span {
       font-size: ${helper.normal_font_size_SD};
-    }
+    };
   };
 `;
 
@@ -42,5 +42,5 @@ export const IconsContainer = styled.div`
   svg {
     margin: 5px;
     color: ${props => props.theme.primary_lighter };
-  }
+  };
 `;

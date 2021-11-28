@@ -1,6 +1,11 @@
 import ArrowRight from "@iconscout/react-unicons/icons/uil-arrow-right";
 
-import { Container, ImageContainer, ContentContainer, ButtonContainer } from './styles';
+import { 
+  Container, 
+  ImageContainer, 
+  ContentContainer, 
+  ButtonContainer 
+} from "./styles";
 
 function ProjectCard ({ data }) {
   const { title, description, image, repository } = data;

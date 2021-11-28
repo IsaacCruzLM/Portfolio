@@ -1,18 +1,28 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import 'swiper/swiper-bundle.min.css';
-import 'swiper/swiper.min.css';
+import "swiper/swiper-bundle.min.css";
+import "swiper/swiper.min.css";
 
-import ReceitaAppImage from '../../assets/ReceitaApp.jpeg';
-import TriviaGameImage from '../../assets/TriviaGame.jpeg';
-import TrybeWalletImage from '../../assets/TrybeWallet.jpeg';
+import ArrowRight from "@iconscout/react-unicons/icons/uil-arrow-right";
+
+import ReceitaAppImage from "../../assets/ReceitaApp.jpeg";
+import TriviaGameImage from "../../assets/TriviaGame.jpeg";
+import TrybeWalletImage from "../../assets/TrybeWallet.jpeg";
 
 import ProjectCard from "../ProjectCard";
 
-import { Container, TitleContainer, SwiperContainer } from './styles';
+import { 
+  Container, 
+  TitleContainer, 
+  SwiperContainer, 
+  ButtonContainer
+} from './styles';
 
 import SwiperCore, {
-  Navigation,Pagination,Mousewheel,Keyboard
-} from 'swiper';
+  Navigation,
+  Pagination,
+  Mousewheel,
+  Keyboard
+} from "swiper";
 
 SwiperCore.use([Navigation,Pagination,Mousewheel,Keyboard]);
 
@@ -64,6 +74,16 @@ function ProjectsSlider () {
           </SwiperSlide>
         </Swiper>
       </SwiperContainer>
+      <ButtonContainer>
+        <a href="https://github.com/IsaacCruzLM?tab=repositories" target="_blank" rel="noreferrer">
+          <button>
+            <span>
+              Veja Mais Projetos!
+            </span>
+            <ArrowRight size="25" />
+          </button>
+        </a>
+      </ButtonContainer>
     </Container>
   );
 };

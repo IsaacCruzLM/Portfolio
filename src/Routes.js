@@ -1,9 +1,9 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import React from "react";
+import { Switch, Route } from "react-router-dom";
 
-import Main from './pages/Main';
-import Projects from './pages/Projects';
-import NotFound from './pages/NotFound';
+import Main from "./pages/Main";
+import Projects from "./pages/Projects";
+import NotFound from "./pages/NotFound";
 
 function Routes() {
     return (

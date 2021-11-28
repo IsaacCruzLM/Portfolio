@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
 import $ from "jquery";
 
 import BackendIcon from "@iconscout/react-unicons/icons/uil-server-network";
@@ -15,7 +15,7 @@ import {
   SkillTitle,
   SkillsContainer,
   SkillContainer
-} from './styles';
+} from "./styles";
 
 function Skills() {
   useEffect(() => {
@@ -29,8 +29,8 @@ function Skills() {
         $(this).addClass('active');
         $(this).children('.up').show();
         $(this).children('.down').hide();
-      }
-    })
+      };
+    });
   }, []);
 
   return (
@@ -151,7 +151,7 @@ function Skills() {
       </SkillsSection>
     </Container>
   );
-}
+};
   
 export default Skills;
   
