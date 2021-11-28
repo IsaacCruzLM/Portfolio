@@ -118,6 +118,10 @@ export const ImageContainer = styled.div`
   margin-left: 40px;
   fill: ${props => props.theme.primary2 };
 
+  img {
+    width: 100%
+  };
+
   @media (max-width: 767px) {
     display: none;
   };
@@ -125,6 +129,10 @@ export const ImageContainer = styled.div`
 
 export const ImageContainerMobile = styled.div`
   display: none;
+
+  img {
+    width: 100%;
+  };
 
   @media (max-width: 767px) {
     display: block;

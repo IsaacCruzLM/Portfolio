@@ -3,7 +3,7 @@ import GitHubIcon from "@iconscout/react-unicons/icons/uil-github-alt";
 import EmailIcon from "@iconscout/react-unicons/icons/uil-fast-mail-alt";
 import SendIcon from "@iconscout/react-unicons/icons/uil-envelope-send";
 
-import { ReactComponent as Blob } from "../../assets/blob.svg";
+import BlobImage from "../../assets/perfil.png";
 
 import { 
   Container, 
@@ -31,7 +31,7 @@ function Introduction() {
           </a>
         </IconsContainer>
         <ImageContainerMobile>
-          <Blob />
+         <img src={BlobImage} alt="Imagem de Perfil" />
         </ImageContainerMobile>
       </ContainerMobile>
       <TextContainer>
@@ -48,7 +48,7 @@ function Introduction() {
         </a>
       </TextContainer>
       <ImageContainer>
-        <Blob />
+        <img src={BlobImage} alt="Imagem de Perfil"/>
       </ImageContainer>
     </Container>
   );

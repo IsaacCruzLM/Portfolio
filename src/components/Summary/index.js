@@ -1,6 +1,8 @@
 import DownloadIcon from "@iconscout/react-unicons/icons/uil-download-alt";
 import curriculoPdf from "../../assets/curriculo.pdf";
 
+import AboutImage from "../../assets/about.jpeg";
+
 import {
   Container,
   TitleContainer,
@@ -21,7 +23,7 @@ function Summary() {
       </TitleContainer>
       <ContentContainer>
         <ImageContainer>
-          <img alt="Foto Summary" src="https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/f1ddc91d1a266b282911e4ca6ab6f30e26e96256d9e3ee9b776f59466feb7ceb1584526946899.jpg" />
+          <img alt="Foto Summary" src={ AboutImage } />
         </ImageContainer>
         <TextContainer>
           <p>Estagiário em desenvolvimento FullStack, na Icalearning. Estudante de desenvolvimento Web FullStack na Trybe e procurando minha primeira oportunidade como Desenvolvedor Web Jr.</p>
