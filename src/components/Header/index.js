@@ -8,11 +8,8 @@ import Sun from "@iconscout/react-unicons/icons/uil-sun";
 import { Container, HeaderComponent, NameContainer, NavContainer, IconContainer, Button } from './styles';
 
 function Header() {
-  const { theme, setCurrentTheme } = useContext(AppContext);
+  const { setCurrentTheme } = useContext(AppContext);
   const [themeState, setThemeState] = useState('light');
-
-  console.log(theme);
-  console.log(setCurrentTheme);
 
   const changeTheme = () => {
     if (themeState === 'light') {

@@ -5,6 +5,11 @@ export const Container = styled.div`
     right: 2rem;
     bottom: 3rem;
     z-index: 20;
+
+    @media (max-width: 767px) {
+        bottom: none;
+        top: 3rem;
+    }
 `;
 
 export const Link = styled.a`

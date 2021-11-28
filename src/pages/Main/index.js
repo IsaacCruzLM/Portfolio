@@ -1,4 +1,5 @@
 import Header from "../../components/Header";
+import MobileHeader from "../../components/MobileHeader";
 import Introduction from "../../components/Introduction";
 import Summary from "../../components/Summary";
 import Skills from "../../components/Skills";
@@ -15,6 +16,7 @@ function Main() {
   return (
     <Container className="Container">
       <Header />
+      <MobileHeader />
       <Introduction />
       <Summary />
       <Skills />

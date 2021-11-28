@@ -21,6 +21,8 @@ export const Container = styled.section`
   }
 
   @media (max-width: 767px) {
+    text-align: center;
+    
     h3 {
       font-size: ${helper.h3_font_size_SD};
     }

@@ -63,7 +63,7 @@ export const Button = styled.div`
   }
 
   &:hover {
-    background-color: ${props => props.theme.primary_lighter };
+    background-color: ${props => props.theme.name === 'light' ? props.theme.primary_lighter : props.theme.text_lighter};
     filter: brightness(0.9);
     cursor: pointer;
   }
