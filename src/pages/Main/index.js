@@ -12,7 +12,6 @@ import ScrollUp from "../../components/ScrollUp";
 import { Container } from "./styles";
 
 function Main() {
-
   return (
     <Container className='Container'>
       <Header />
