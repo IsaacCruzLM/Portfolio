@@ -37,7 +37,7 @@ function Introduction() {
       <TextContainer>
         <h1>Prazer, sou Isaac</h1>
         <h2>Desenvolvedor FullStack</h2>
-        <p>Estudante de desenvolvimento web fullstack na Trybe, em busca da minha primeira oportunidade de trabalho na área. Caso queira saber mais, é só rolar para baixo!</p>
+        <p>Atualmente desenvolvedor mobile na Kartado, em busca da minha graduação na área de TI. Caso queira saber mais, é só rolar para baixo!</p>
         <a href="#Contato">
           <Button>
             <span>

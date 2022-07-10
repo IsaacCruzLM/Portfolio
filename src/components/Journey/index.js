@@ -102,16 +102,32 @@ function Journey() {
               <h4>Icalearning</h4>
               <DateItem>
                 <CalendarIcon size="20" />
-                <span>2021 - atualmente</span>
+                <span>2021 - 2022</span>
               </DateItem>
             </QualificationItem>
+
+            <div>
+              <Rounder></Rounder>
+              <Line></Line>
+            </div>
+
+            <div></div>
+
+            <div></div>
 
             <div>
               <Rounder></Rounder>
               <EndLine></EndLine>
             </div>
 
-            <div></div>
+            <QualificationItem>
+              <h3>Desenvolvedor Mobile</h3>
+              <h4>Kartado</h4>
+              <DateItem>
+                <CalendarIcon size="20" />
+                <span>2022 - atualmente</span>
+              </DateItem>
+            </QualificationItem>
 
           </QualificationData>
         </div>

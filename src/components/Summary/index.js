@@ -26,19 +26,19 @@ function Summary() {
           <img alt="Foto Summary" src={ AboutImage } />
         </ImageContainer>
         <TextContainer>
-          <p>Estagiário em desenvolvimento FullStack, na Icalearning. Estudante de desenvolvimento Web FullStack na Trybe e procurando minha primeira oportunidade como Desenvolvedor Web Jr.</p>
+          <p>Desenvolvedor mobile em React Native, na Kartado. Visando iniciar minha graduação na área de TI e procurando me especializar na área de desenvolvimento Mobile, principalmente no desenvolvimento híbrido com React Native e Flutter.</p>
           <ExperienceContainer>
             <ExperienceItem>
               <h3>
-                06+
+                01+
               </h3>
               <p>
-                Meses de Experiência
+                Anos de Experiência
               </p>
             </ExperienceItem>
             <ExperienceItem>
               <h3>
-                15+
+                20+
               </h3>
               <p>
                 Repositórios Criados
@@ -46,10 +46,10 @@ function Summary() {
             </ExperienceItem>
             <ExperienceItem>
               <h3>
-                01
+                02
               </h3>
               <p>
-                Experiência Profissional
+                Experiências Profissionais
               </p>
             </ExperienceItem>
           </ExperienceContainer>

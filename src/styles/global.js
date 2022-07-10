@@ -9,6 +9,7 @@ export default createGlobalStyle`
 
   html {
     background-color: ${props => props.theme.background };
+    scroll-behavior: smooth;
   };
   
   body {
